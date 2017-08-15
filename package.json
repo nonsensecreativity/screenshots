@@ -1,0 +1,18 @@
+{
+  "name": "ss",
+  "version": "1.0.0",
+  "description": "Screenshots",
+  "main": "index.js",
+  "repository": "https://github.com/nonsensecreativity/ss.git",
+  "author": "Hermanto Lim <nonsensecreativity@gmail.com>",
+  "license": "Proprietary",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp",
+    "build-win": ".\\node_modules\\.bin\\gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.3.0"
+  }
+}
